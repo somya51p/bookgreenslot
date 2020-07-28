@@ -68,8 +68,9 @@ body {
     border: 0.5px solid white;
 }
 
-.header {
-    color: rgb(255, 255, 255);
+.header{
+    color: whitesmoke;
+    background: linear-gradient(skyblue);
     text-align: center;
     margin: 10px;
     font-size: 25px;
@@ -77,7 +78,64 @@ body {
     background-color: rgb(26, 26, 26);
     letter-spacing: 6px;
     border: 0.5px solid black;
-    border-radius: 32px 0px 32px 0px;
+    
+}
+
+.ask h4,
+.subscribe{
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.ask .form{
+    color: black;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.ask .form label,
+.subscribe .subscribe-form label{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ask .form input{
+    width: 50%;
+    height: 64px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: lightgrey;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.ask .submit{
+    padding: 8px;
+    margin-left: 57%;
+}
+
+.subscribe .subscribe-form input{
+    padding: 16px;
+    margin: 8px;
+    height: 16px;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    background-color: lightgray;
+    font-size: 16px;
+    font-weight: bold;
+    
+    letter-spacing: 1px;
+}
+
+
+.subscribe .subscribe-form .submit{
+    padding: 8px;
+    margin-left: 32%;
 }
 
 footer {
