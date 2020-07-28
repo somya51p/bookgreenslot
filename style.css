@@ -66,7 +66,7 @@ body {
     border: 0.5px solid white;
 }
 
-header{
+.header{
    background-color: black;
     color: skyblue;
     opacity: 0.8;
