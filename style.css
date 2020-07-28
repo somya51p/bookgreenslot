@@ -3,9 +3,6 @@
     padding: 0px;
 }
 
-header {
-    border: 0px solid transparent;
-}
 
 body {
     font-family: 'Poppins', serif;
@@ -69,19 +66,18 @@ body {
     border: 0.5px solid white;
 }
 
-.header{
-    color: whitesmoke;
-    background: linear-gradient(skyblue);
+header{
+   background-color: black;
+    color: skyblue;
+    opacity: 0.8;
     text-align: center;
     margin: 10px;
     font-size: 25px;
     line-height: 80px;
-    background-color: rgb(26, 26, 26);
     letter-spacing: 6px;
-    border: 0.5px solid black;
+    border: 0.1px solid black;
     
 }
-
 .ask h4,
 .subscribe{
     color: black;
